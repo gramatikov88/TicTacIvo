@@ -1,0 +1,144 @@
+/* CSS Code */
+/* Heading */
+h1 {
+  color: orangered;
+  font-size: 45px;
+}
+
+body {
+  background-color: black;
+  /* background-image: url(https://krugames.net/wp-content/uploads/2022/01/tic.tac.toe.two.player.board.games.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; */
+}
+
+/* 3*3 Grid */
+#b1,
+#b2,
+#b3,
+#b4,
+#b5,
+#b6,
+#b7,
+#b8,
+#b9 {
+  width: 80px;
+  height: 52px;
+  margin: auto;
+  border: 1px solid #db3eb1;
+  border-radius: 6px;
+  color: #db3eb1;
+  font-size: 30px;
+  font-family: tahoma;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  filter: drop-shadow(0 0 15px #db3eb1) drop-shadow(0 0 50px #db3eb1) contrast(2) brightness(2);
+  transition: .5s;
+  cursor: pointer;
+}
+
+#b1:hover,
+#b2:hover,
+#b3:hover,
+#b4:hover,
+#b5:hover,
+#b6:hover,
+#b7:hover,
+#b8:hover,
+#b9:hover {
+  color: #5c0645;
+  background-color: #db3eb1;
+  font-family: tahoma;
+  filter: drop-shadow(0 0 20px #db3eb1) contrast(2) brightness(2);
+}
+
+/* Reset Button */
+#but {
+  box-sizing: border-box;
+  color: #5c0645;
+  width: 115px;
+  height: 40px;
+  border: 1px solid #db3eb1;
+  margin: auto;
+  border-radius: 4px;
+  font-family: tahoma;
+  background-color: #db3eb1;
+  font-size: 30px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#but:hover {
+  color: #5c0645;
+  background-color: #db3eb1;
+  filter: drop-shadow(0 0 20px #db3eb1) contrast(2) brightness(2);
+}
+
+/* Player turn space */
+#print {
+  color: #db3eb1;
+  font-size: 4em;
+  text-shadow:
+    0 0 7px #fa7ed9,
+    0 0 10px #c055a3,
+    0 0 21px #bb1e91,
+    0 0 42px #db3eb1,
+    0 0 82px #db3eb1,
+    0 0 92px #db3eb1,
+    0 0 102px #db3eb1,
+    0 0 151px #db3eb1;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+}
+
+/* Main Container */
+#main {
+  text-align: center;
+  background: rgba(0, 0, 0, 0.45);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(8.1px);
+  -webkit-backdrop-filter: blur(8.1px);
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+#main h1 {
+  color: #5c0645;
+  text-shadow:
+    0 0 7px #fa7ed9,
+    0 0 10px #c055a3,
+    0 0 21px #bb1e91,
+    0 0 42px #db3eb1,
+    0 0 82px #db3eb1,
+    0 0 92px #db3eb1,
+    0 0 102px #db3eb1,
+    0 0 151px #db3eb1;
+}
+
+.frontText {
+  font-size: 2em;
+  color: #5c0645;
+  font-weight: bolder;
+  text-shadow:
+    0 0 7px #fa7ed9,
+    0 0 10px #c055a3,
+    0 0 21px #bb1e91,
+    0 0 42px #db3eb1,
+    0 0 82px #db3eb1,
+    0 0 92px #db3eb1,
+    0 0 102px #db3eb1,
+    0 0 151px #db3eb1;
+}
+
+/* Game Instruction Text */
+#ins {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+  color: dodgerblue;
+  font-size: 17px;
+}
